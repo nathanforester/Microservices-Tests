@@ -14,3 +14,5 @@ sudo usermod -aG docker $USER
 
 sudo chown $USER /var/run/docker.sock
 
+sudo docker-compose -f /home/ubuntu/Microservices-Tests/docker-compose.yaml
+
